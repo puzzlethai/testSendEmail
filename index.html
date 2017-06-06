@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>testEmail</title>
+    <script src="https://smtpjs.com/smtp.js">
+    </script>
+</head>
+<body>
+<script>
+    function myFunction() {
+        Email.send("j2me_game@yahoo.com",
+            "akarach_tot@yahoo.com",
+            "Test mysticker",
+            "Hope it work",
+            "smtp.mail.yahoo.com",
+            "j2me_game@yahoo.com",
+            "akarach2552");
+//        document.getElementById("demo").innerHTML = "Hello World";
+    }
+</script>
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+</body>
+</html>
